@@ -20,5 +20,5 @@ class ProductViewSet(viewsets.ModelViewSet):
 
     search_fields = ['title', 'slug']
     ordering_fields = ['title', 'created_at']
-    ordering = ('-created_at',)
+    ordering = ('-price',)
 
